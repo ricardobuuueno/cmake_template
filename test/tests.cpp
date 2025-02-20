@@ -2,6 +2,7 @@
 
 
 #include <cmake_template/sample_library.hpp>
+#include <railroad/train.hpp>
 
 
 TEST_CASE("Factorials are computed", "[factorial]")
