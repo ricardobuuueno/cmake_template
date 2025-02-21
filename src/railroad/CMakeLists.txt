@@ -1,6 +1,14 @@
 include(GenerateExportHeader)
 
-add_library(railroad train.cpp)
+add_library(railroad carriage.cpp 
+                     depot.cpp
+                     line.cpp
+                     locomotive.cpp 
+                     section.cpp
+                     station.cpp
+                     system.cpp 
+                     track.cpp 
+                     train.cpp)
 
 add_library(cmake_template::railroad ALIAS railroad)
 
