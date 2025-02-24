@@ -1,12 +1,14 @@
 include(GenerateExportHeader)
 
-add_library(railroad carriage.cpp 
+add_library(railroad building.cpp
+                     carriage.cpp 
                      depot.cpp
                      line.cpp
                      locomotive.cpp 
                      section.cpp
                      station.cpp
                      system.cpp 
+                     terminal.cpp
                      track.cpp 
                      train.cpp)
 
